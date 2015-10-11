@@ -26,6 +26,7 @@
 typedef struct {
     gfloat alpha;
     gint corner_radius;
+    gchar* icon_theme;
 } Settings;
 
 Settings get_default_settings();

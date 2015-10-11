@@ -57,6 +57,7 @@ get_default_settings() {
     Settings settings;
     settings.alpha = 0.5f;
     settings.corner_radius = 30;
+    settings.icon_theme = "volume";
     return settings;
 }
 
