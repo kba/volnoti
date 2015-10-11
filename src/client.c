@@ -52,10 +52,8 @@ int main(int argc, const char* argv[]) {
     const char* theme;
     char* opt_theme;
     if( gopt_arg(options, 'T', &opt_theme)){
-        printf("%s", opt_theme);
-        theme = "brightness";
+        theme = opt_theme;
     } else {
-        printf("%s", "meh");
         theme = "volume";
     }
     gopt_free(options);
